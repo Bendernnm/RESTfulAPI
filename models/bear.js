@@ -6,5 +6,5 @@ module.exports = (function () {
         name: String
     });
 
-    var model = mongoose.model('Bear', BearSchema);
+    mongoose.model('Bear', BearSchema);
 })();
