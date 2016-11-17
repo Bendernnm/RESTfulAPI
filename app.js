@@ -1,6 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+
+require('./models');
 var routes = require('./routes');
 var config = require('./config');
 

@@ -1,4 +1,4 @@
-var Bear = require('../models/bear');
+var Bear = require('mongoose').model('Bear');
 
 module.exports = {
     createBear: function (req, res, next) {

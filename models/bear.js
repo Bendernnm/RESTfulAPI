@@ -1,10 +1,10 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+module.exports = (function () {
+    var mongoose = require('mongoose');
+    var Schema = mongoose.Schema;
 
-var BearSchema = new Schema({
-    name: String
-});
+    var BearSchema = new Schema({
+        name: String
+    });
 
-var model = mongoose.model('Bear', BearSchema);
-
-module.exports = model;
+    var model = mongoose.model('Bear', BearSchema);
+})();
