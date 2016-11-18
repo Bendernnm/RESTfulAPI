@@ -1,4 +1,5 @@
 module.exports = {
     root: require('./root'),
-    api: require('./api')
+    api: require('./api'),
+    population: require('./population')
 };

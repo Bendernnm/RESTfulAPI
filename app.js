@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 
 app.use('/', routes.root);
 app.use('/api', routes.api);
+app.use('/population', routes.population);
 
 //TODO error handler
 // app.use(function (err, req, res, next) {
